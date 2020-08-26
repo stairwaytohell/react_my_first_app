@@ -1,9 +1,25 @@
 @font-face {
 	font-family: 'Roboto';
 	src: local('Roboto'),
-	url('./fonts/Roboto.ttf');
+		url('./fonts/Roboto.ttf');
 }
 
 body {
 	font-family: 'Roboto';
+	font-size: 14px;
+	color: #444444;
+	background-color: #f1f1f1;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+}
+
+a {
+	text-decoration: none;
 }
