@@ -1,0 +1,43 @@
+header {
+	position: fixed;
+	width: 100vw;
+	font-size: 16px;
+	font-weight: 700;
+	z-index: 9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav {
+	width: calc(100%/3);
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin-left: 10vw;
+}
+
+.active {
+	color: #dc4734;
+}
+
+img {
+	height: 45px;
+	padding-top: 5px;
+}
+
+.logo {
+	width: calc(100%/3);
+}
+
+.ava {
+	width: calc(100%/3);
+	margin-right: 10vw;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.ava img {
+	height: 35px;
+}
