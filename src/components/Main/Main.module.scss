@@ -1,6 +1,51 @@
 main {
-	width: 100vw;
+	width: 1902px;
 	display: flex;
 	align-items: center;
+	text-align: center;
 	justify-content: center;
+	flex-direction: column;
+}
+
+.active {
+	color: #dc4734;
+}
+
+.banner {
+	background-image: url('../../img/banner.jpg');
+	width: 100%;
+	height: 370px;
+	display: flex;
+	background-size: cover;
+}
+
+.top {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	flex-direction: row;
+}
+
+.ava {
+	width: 50%;
+
+	z-index: 8;
+}
+
+.ava img {
+	width: 270px;
+	height: 270px;
+	background-color: white;
+	border: 10px solid rgb(255, 255, 255);
+}
+
+.menu {
+	font-size: 16px;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	width: 50%;
 }
