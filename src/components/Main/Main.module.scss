@@ -1,5 +1,5 @@
 main {
-	width: 1902px;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -30,8 +30,11 @@ main {
 
 .ava {
 	width: 50%;
-
-	z-index: 8;
+	margin-top: -140px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: start;
+	position: relative;
 }
 
 .ava img {
@@ -39,13 +42,24 @@ main {
 	height: 270px;
 	background-color: white;
 	border: 10px solid rgb(255, 255, 255);
+	margin-left: 18vw;
 }
 
-.menu {
+.nav {
 	font-size: 16px;
 	font-weight: 700;
 	display: flex;
 	justify-content: space-evenly;
 	list-style: none;
 	width: 50%;
+	margin-right: 17vw;
+}
+
+button {
+	color: white;
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: 50px;
+	border: none;
+	background-color: #dc4734;
 }

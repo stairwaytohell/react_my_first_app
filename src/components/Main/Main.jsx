@@ -12,13 +12,15 @@ const Main = () => {
 						</img>
 					</a>
 				</div>
-				<div className={s.menu}>
+				<div className={s.nav}>
 					<li><a href='#timeline' className={s.active}>Timeline</a></li>
 					<li><a href='#about'>About</a></li>
 					<li><a href='#photos'>Photos</a></li>
 					<li><a href='#friends'>Friends</a></li>
 					<li><a href='#more'>More</a></li>
+					<button>Edit Profile</button>
 				</div>
+				
 			</div>
 		</main>
 	);
